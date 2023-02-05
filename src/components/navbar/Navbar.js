@@ -10,7 +10,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
     <header id="home">
       <div className="py-10 mb-12 flex justify-between sticky">
         <h1 className="text-xl font-burtons uppercase dark:text-gray-100">
-          Jass
+          Abel Assefa Portfolio
         </h1>
         <ul className="flex items-center">
           <Tippy
@@ -35,7 +35,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                 href="cv.pdf"
                 download="cv.pdf"
               >
-                Resume
+                Abel's Resume
               </a>
             </Tippy>
           </li>

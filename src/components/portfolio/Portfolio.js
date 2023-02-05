@@ -19,14 +19,34 @@ const Portfolio = () => {
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
         <PortfolioCard
-          title="Space Tourism - Comming Soon"
-          des="This is a Frontend Mentor project that is is created from React."
+          title="Weather app"
+          des="This is a Frontend appilcation using a weather API. Built with HTML, CSS and JavaScript"
           src={web1}
+          
         />
         <PortfolioCard
-          title="Coming Soon"
-          des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicado quibusdam voluptate quidem!"
+          title="Full Stack IOT Ecommerce Website"
+          des="This Ecommerence website I built for my final project at a coding boothcamp with some inspiration. The e-commerce website is divided in 6 pages, home, store, about, cart, order login(login not currently working) Built with react
+          Home: Present the project and show 3 random items from the store (from firebase)."
           src={web2}
+        />
+         <PortfolioCard
+          title="IoT Ecommerece Store section"
+          des="About Page: It is only filler and does not contribute anything.
+Store: Is where the items are shown and can be filter by price, name, company and category.
+Cart: Is where the items that the user are going to buy are shown (works with localStorage), there the user can add and remove items, and see the price in real time. - Also is where the user acces to the checkout.
+Order: After the user generates a purchase, he gets a code that can be used to see the details of that order."
+          src={web3}
+        />
+        <PortfolioCard
+          title="Basic Todo App"
+          des="A basic Todo app. You can tasks and delete them as you finish the task"
+          src={web4}
+        />
+        <PortfolioCard
+          title="Full stack Property Management App"
+          des="Coming Soon"
+          src={web6}
         />
       </div>
     </section>

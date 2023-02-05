@@ -11,23 +11,23 @@ const Hero = () => {
   // Typing effect
   const [text] = useTypewriter({
     words: [
-      "a Self-Taught.",
-      "a Coder.",
+      "a IoT Consultant.",
+      "a Machine Learning Enthusiast.",
       "a Software Developer.",
       "a Problem Solver",
-      "a Designer",
+      "a entrepreneur",
     ],
     loop: true,
-    typeSpeed: 40,
-    deleteSpeed: 30,
-    delaySpeed: 2000,
+    typeSpeed: 50,
+    deleteSpeed: 40,
+    delaySpeed: 1500,
   });
 
   return (
     <section>
       <div className="text-center p-10">
         <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
-          John Aries Saique
+          Abel Assefa
         </h2>
         <h3 className="text-2xl py-2 md:text-3xl dark:text-gray-400">
           Im <span>{text}</span>
@@ -38,14 +38,13 @@ const Hero = () => {
           />
         </h3>
         <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-100">
-          I am a self-taught software developer who is passionate about solving
-          problems and learning new things.
+          I am an early stage software developer who is looking for an opportunity to utilize my skills with a firm that is willing to take the risk
         </p>
       </div>
       <div className="text-4xl text-gray-600 flex justify-center gap-16 py-3 dark:text-gray-400">
         <Tippy animation={"scale"} content={"Linkedin"}>
           <a
-            href="https://www.linkedin.com/in/john-saique-a20797144/"
+            href="https://www.linkedin.com/in/abel-assefa-1971361a6//"
             target="_blank"
             rel="noreferrer"
           >
@@ -58,7 +57,7 @@ const Hero = () => {
           </a>
         </Tippy> */}
         <Tippy animation={"scale"} content={"Github"}>
-          <a href="https://github.com/jsaique" target="_blank" rel="noreferrer">
+          <a href="https://github.com/Abel7888" target="_blank" rel="noreferrer">
             <AiFillGithub className="hover:text-teal-600 duration-300" />
           </a>
         </Tippy>
